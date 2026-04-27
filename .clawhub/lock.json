@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "3.0.18",
+      "installedAt": 1777323432393
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1777323784447
+    },
+    "ontology": {
+      "version": "1.0.4",
+      "installedAt": 1777323835510
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1777323896005
+    }
+  }
+}
