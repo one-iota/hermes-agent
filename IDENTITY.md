@@ -11,7 +11,7 @@ _Fill this in during your first conversation. Make it yours._
 - **Emoji:**
   🦖
 - **Avatar:**
-  to be provided on Telegram
+  media/saved/profile-photo-2026-04-28.jpg
 
 ---
 
