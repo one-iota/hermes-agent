@@ -45,6 +45,22 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+## Specialized Sub-Agents
+
+The orchestration now uses specialized sub-agents. Work follows a strict branch/PR workflow.
+
+- **Ghost (Code):** Focus on codebase, scripts, and automation.
+- **Duty (Socials):** Focus on social media interactions and monitoring.
+- **Postman (Mail/API):** Focus on email communication and API integrations.
+
+### Ghost Workflow Rules
+
+1. **NEVER** commit to `main` or `master` branch.
+2. **ALWAYS** work on a new branch and create a PR.
+3. **NO destructive commands** (no force push).
+4. **ALWAYS** provide the PR link in the final summary.
+5. If confused about a task, **ASK and CLARIFY** before doing anything.
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.
@@ -116,6 +132,18 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 ## Tools
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
+
+## New Agent Bring-Up
+
+Before trusting a newly created agent:
+
+1. Verify its configured model in `~/.openclaw/openclaw.json`
+2. Compare its stored auth profile against main agent
+3. Check for stale `modelOverride` or other session overrides
+4. Send one smoke-test message
+5. Verify actual model used and whether reply succeeds
+
+Do not assume setup wizard reused the same auth key correctly. Verify.
 
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
