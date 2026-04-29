@@ -106,7 +106,7 @@ BUILT-IN SKINS
 - ``poseidon`` — Ocean-god theme (deep blue and seafoam)
 - ``sisyphus`` — Austere grayscale with boulder motif
 - ``charizard`` — Volcanic burnt-orange and ember
-- ``bunnny``   — Barbie-pink coquette theme (inspired by brooklyn.sh)
+- ``bunnny``   — Barbie-pink coquette theme (sparkles, hearts, bunnies)
 
 USER SKINS
 ==========
@@ -642,7 +642,7 @@ _BUILTIN_SKINS: Dict[str, Dict[str, Any]] = {
     },
     "bunnny": {
         "name": "bunnny",
-        "description": "Barbie-pink coquette theme — sparkles, bows, and bubblegum (inspired by brooklyn.sh)",
+        "description": "Barbie-pink coquette theme — sparkles, bows, and bubblegum",
         "colors": {
             "banner_border": "#E91E63",
             "banner_title": "#FF3366",
